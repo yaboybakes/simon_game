@@ -8,7 +8,7 @@
 <body>
 	<div class="container">
 		<div class="row">
-			<div class="opacity color col-xs-6" id="red"></div>
+			<div class="color col-xs-6" id="red"></div>
 			<div class="color col-xs-6" id="yellow"></div>
 		</div>
 		<div class="row">
@@ -16,7 +16,13 @@
 			<div class="color col-xs-6" id="green"></div>
 		</div>
 	</div>
-	<div class="computer col-xs-4 col-xs-offset-4">
+
+	<div class="winLose col-xs-12">
+		<h1 class="disable col-xs-4 col-xs-offset-4 center" id="win">You win!</h1>
+		<h1 class="disable" id="lose">You lost!</h1>
+	</div>
+
+	<div class="computer disable col-xs-4 col-xs-offset-4">
 		<ul class="circles">
 			<li></li>
 			<li></li>
@@ -25,4 +31,7 @@
 		</ul>
 	</div>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <script type="text/javascript" src="script.js"></script>
 </html>
