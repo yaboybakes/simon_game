@@ -1,0 +1,51 @@
+#red {
+	background-color: red;
+	height: 300px;
+}
+
+#yellow {
+	background-color: yellow;
+	height: 300px;
+}
+
+#green {
+	background-color: green;
+	height: 300px;
+}
+
+#blue {
+	background-color: blue;
+	height: 300px;
+}
+
+.opacity {
+	opacity: 0.5;
+}
+
+.computer {
+	position: absolute;
+	top: 200px;
+	width: 400px;
+	height: 200px;
+	background-color: #ffffff;
+}
+
+.circles {
+	text-align: center;
+	padding: 0;
+}
+
+.circles li {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	margin-top: 80px;
+	margin-right: 20px;
+	border-radius: 100%;
+	border: solid 1px black;
+}
+
+.circles li:nth-child(1) {
+	background-color: red;
+	margin-left: 20px;
+}
